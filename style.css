@@ -1,0 +1,42 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(253, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    overflow: hidden;
+    margin: 0;
+}
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 50px;
+    text-align: center;
+
+}
+.counter{
+    font-size: 60px;
+    margin-top: 10px;
+    
+}
+.twitter{
+    color: rgb(20, 177, 240);
+}
+.facebook{
+    color: blue;
+}
+.youtube{
+    color: red;
+}
+@media(max-width: 580px){
+    body{
+        flex-direction: column;
+    }
+}
